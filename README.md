@@ -8,6 +8,9 @@ El principal objetivo de este desafío es fortalecer las habilidades en lógica 
 - **Mostrar nombres agregados** 
 - **Sortear nombres de forma aleatoria**
 
+## 🛠️ Funciones del programa
+- **Puedes acceder al trabajo a través de este link:** https://ima2025.github.io/amigo-secreto/.
+
 #### Las tecnologías utilizadas en este proyecto corresponden a HTML, CSS y JavaScript
 <p align="center">
 <img src=https://img.icons8.com/?size=100&id=OvHfxNJ4T2jr&format=png&color=000000></img>
