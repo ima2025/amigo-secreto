@@ -31,3 +31,20 @@
     // Asignar el contenido generado al innerHTML de la lista (fuera del bucle)
     lista.innerHTML = contenido;
     }
+
+
+    //Funcion para sortear nombre aleatorio
+    function seleccionNombreAleatorio (){
+        //Verifica que el arreglo no esté vacío
+        if (amigos.length === 0){
+            alert ("No hay amigos disponibles");
+            return;
+        }
+        //Genera numero aleatorio entre 0 y maximo amigos length-1
+        let numeroAleatorio = Math.floor(Math.random()*amigos.length);
+        //Obtiene el nombre correspondiente de amigos a partir del numero sorteado
+        let nombreSorteado = amigos [numeroAleatorio];
+        // Mostrar el resultado en la página
+        let resultado = document.getElementById("resultado");
+        resultado.innerHTML = "<li>" + nombreSorteado + "</li>";
+    }
